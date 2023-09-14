@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.outersquare{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    position: absolute;
+    top:  30%;
+    right: 30%;
+    border: 3px solid white;
+}
+
+.innersquare{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    background-color: bisque;
+    top: 25px;
+    right: -23px;
+    border: 3px solid black;
+}
+
+.mesh{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -60px;
+    right: 60px;
+    rotate: -10deg;
+    border-top-right-radius: 90%;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
+
+.light{
+        width: 0;
+        height: 0;
+        opacity: 0.25;
+        position: absolute;
+        top: -230px;
+        right: -25px;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 400px solid yellow;
+           
+}
+
+.striker{
+    height:30px;
+    width: 30px;
+    position: relative;
+    background-color: red;
+    border-radius: 100%;
+    top: 275px;
+    right: -5px;
+    animation: strikemove 5s linear;
+}
+
+.coin{
+    height: 27px;
+    width: 27px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    top:250px;
+    right: -270px;
+    animation: coinmove 5s linear;
+}
+
+.meshline1{
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    right: -8px;
+    top: 5px;
+}
+
+.meshline2{
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    top:-20px;
+    right: -10px;
+    rotate: 90deg;
+    
+}
+
+@keyframes strikemove {
+    0%{transform: translate(0px,0px);}
+    25%{transform: translate(150px,-310px);}
+    50%{transform: translate(280px,0px);}
+    100%{transform: translate(310px,-5px);}
+}
+
+@keyframes coinmove {
+    0%{transform: translate(0px,0px);}
+    25%{transform: translate(0px,0px);}
+    49%{transform: translate(0px,0px);}
+    50%{transform: translate(0px,10px);}
+    100%{transform: translate(-325px,-380px);}
+}
