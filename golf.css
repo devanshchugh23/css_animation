@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+.golfball{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: white;
+    animation-name:ballinhole;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.hole{
+    height: 2px;
+    width: 300px;
+    background-color: aqua;
+    margin-left: 1000px;
+    margin-top: 300px;
+    border-radius: 5%;
+}
+
+
+@keyframes ballinhole {
+    50% {
+        transform: translateX(1000px);
+    }
+    79% {
+        transform: translateX(1000px) translateY(300px);
+        opacity: 1;
+    }
+    90% {
+        transform: translateX(1000px) translateY(550px);
+        opacity: 0;
+    }
+    
+}

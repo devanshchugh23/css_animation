@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #004d1a; /* Green table background color */
+}
+
+.table {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: #228b22; /* Green felt color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.cue-ball,
+.eight-ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff; /* White ball color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.cue-ball {
+    left: 50px;
+    top: 125px;
+    animation-name: cueBallAnimation;
+}
+
+.eight-ball {
+    left: 300px;
+    top: 125px;
+    animation-name: eightBallAnimation;
+}
+
+@keyframes cueBallAnimation {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(400px);
+    }
+}
+
+@keyframes eightBallAnimation {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-400px);
+    }
+}

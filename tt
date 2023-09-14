@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>DSE(A) Time Table </title>
+    </head>
+
+ 
+
+    <body>
+
+ 
+
+        <h3 align="center">DSE SEC-A TIME_TABLE</h3>
+
+ 
+
+        <table border="3px" align="center">
+
+ 
+
+            <tr style="background-color: rgb(18, 72, 144)">
+
+ 
+
+                <th bgcolor="white"></th>
+
+ 
+
+                <th>8:00-9:00</th>
+
+ 
+
+                <th>9:00-10:00</th>
+
+ 
+
+                <th>10:00-10:30</th>
+
+ 
+
+                <th>10:30-11:30</th>
+
+ 
+
+                <th>11:30-12:30</th>
+
+ 
+
+                <th>12:30-1:00</th>
+
+ 
+
+                <th>1:00-2:00</th>
+
+ 
+
+                <th>2:00-3:00</th>
+
+ 
+
+                <th>3:00-3:30</th>
+
+ 
+
+                <th>3:30-4:30</th>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Monday</th>
+
+ 
+
+                <th align="center"></th>
+
+ 
+
+                <th colspan="3" align="center">DL Lab6-A2</th>
+
+ 
+
+                <td align="center">OOP</td>
+
+ 
+
+                <td colspan="" align="center" bgcolor="#COCOCO">Lunch</td>
+
+ 
+
+                <td align="center">CC</td>
+
+ 
+
+                <td align="center">OS</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center" p style="color:red">NLP*</td>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Tuesday</th>
+
+ 
+
+                <td align="center">Maths</td>
+
+ 
+
+                <td align="center">NLP</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center">CC</td>
+
+ 
+
+                <td align="center">DL</td>
+
+ 
+
+                <td colspan="2" align="center" bgcolor="#COCOCO">Lunch</td>
+
+ 
+
+                <td align="center">OOP</td>
+
+ 
+
+                <td colspan="3" align="center"></td>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Wednesday</th>
+
+ 
+
+                <td colspan="3" align="center"></td>
+
+ 
+
+                <td align="center">OOP</td>
+
+ 
+
+                <td colspan="2" align="center" bgcolor="#COCOCO">Lunch</td>
+
+ 
+
+                <td align="center">DL</td>
+
+ 
+
+                <td align="center">Maths</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center">NLP</td>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Thrusday</th>
+
+ 
+
+                <td align="center" p style="color:red">CC*</td>
+
+ 
+
+                <td align="center">DL</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center">OS</td>
+
+ 
+
+                <td colspan="3" align="center" bgcolor="#COCOCO">Lunch</td>
+
+ 
+
+                <th colspan="3" align="center">OS Lab1-A2</th>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Friday</th>
+
+ 
+
+                <td align="center">OOP</td>
+
+ 
+
+                <th colspan="3" align="center">WT Lab4-B1</th>
+
+ 
+
+                <td colspan="2" align="center" bgcolor="#COCOCO">Lunch</td>
+
+ 
+
+                <td align="center">NLP</td>
+
+ 
+
+                <td align="center">CC</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center">DL</td>
+
+ 
+
+            </tr>
+
+ 
+
+            <tr>
+
+ 
+
+                <th bgcolor="gold">Saturday</th>
+
+ 
+
+                <td align="center">OS</td>
+
+ 
+
+                <td align="center" p style="color:red">OS*</td>
+
+ 
+
+                <td align="center" bgcolor="#COCOCO">Break</td>
+
+ 
+
+                <td align="center">Maths</td>
+
+ 
+
+                <td align="center" p style="color:red">DL*</td>
+
+ 
+
+                <td colspan="5" align="center" </td>
+
+ 
+
+            </tr>
+
+ 
+
+        </table>
+
+ 
+
+    </body>
+
+ 
+
+</html>

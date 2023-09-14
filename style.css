@@ -1,0 +1,64 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.wax{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 75px;
+    background-color: red;
+    border-radius: 10%;
+    box-shadow: inset 10px 0 0 0px orange;
+}
+
+.wick{
+    top: -16%;
+    left: 50%;
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: white;
+}
+
+.flame{
+    position: absolute;
+    height: 140px;
+    width: 50px;
+    top: -55%;
+    left: 20%;
+    background-color: yellow;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 150%;
+    animation: burning 3s linear infinite;
+}
+
+@keyframes burning{
+    from{
+        opacity: 0;
+        box-shadow: 0 0 0 0 orange;
+    }
+    to{
+        opacity: 1;
+        box-shadow: 0 0 0 25px rgba(165, 31, 31, 0);
+    }
+}
