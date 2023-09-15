@@ -1,0 +1,85 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: bisque;
+    z-index: -2;
+
+}
+.board{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    display: flex;
+    border: 5px black solid;
+    position: relative;
+    z-index: ;
+}
+.striker{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    animation: move 4s linear;
+    
+}
+.coin{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.863);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    animation: mv 4s linear;
+    animation-delay:4s ;
+}
+.pocket{
+    height: 70px;
+    width: 70px;
+    border-radius:  50px 50px 20px 50px;
+    background-color: rgba(0, 0, 0, 0.878);
+    position: absolute;
+    top: -10%;
+    left: -10%;  
+     z-index: -1;
+}
+.light{
+    width: 0; 
+            height: 0; 
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;   
+            border-bottom: 100px solid rgba(255, 255, 0, 0.349);
+  top: -27%;
+  left: 30%; 
+  position: relative;
+            
+}
+@keyframes move{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(180px,-350px);
+    }
+    100%{
+        transform: translate(340px,-27%);
+    }
+}
+@keyframes mv{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-380px,-380px);
+        visibility:hidden collapse;
+        
+    }
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: blanchedalmond;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .box{
+            height: 300px;
+            width: 600px;
+            border: 20px;
+            border-style: groove;
+            border-color: rgb(75, 10, 10);
+            border-radius: 10%;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin: 20px;
+            z-index: -1;
+        }
+        .ball{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: beige;
+            left: 17.5%;
+            position: absolute;
+        }
+        .b{
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 7px red solid;
+            background-color: white;
+            left: 50%;
+            position: absolute;
+            text-align: center;
+            -webkit-text-stroke-width: thin;
+        }
+        .b.one{
+            border: 7px greenyellow solid;
+            left: 50%;
+            
+        }.b.two{
+            
+            border: 7px goldenrod solid;
+            left: 55%;
+            top: 50%;
+            
+        }
+        .b.three{
+            
+            border: 7px rosybrown solid;
+            top: 40%;
+            left: 55%;
+            
+        }
+        .b.four{
+            border: 7px pink solid;
+            top: 55%;
+            left: 60%;
+        }
+        .b.five{
+            border: 7px blueviolet solid;
+            left: 60%;
+        }
+        .b.six{
+            border: 7px rgb(247, 147, 7) solid;
+            top: 33%;
+            left: 60%;
+        }
+        .b.seven{
+            border: 7px red solid;
+            top: 60%;
+            left: 65%;
+        }
+        .b.eight{
+            border: 7px black solid;
+            top: 50%;
+            left: 65%;
+        }
+        .b.nine{
+            border: 7px purple solid;
+            top: 40%;
+            left: 65%;
+        }
+        .b.ten{
+            border: 7px royalblue solid;
+            top: 30%;
+            left: 65%;
+        }
+        .pocket {
+            width: 40px;
+            height: 40px;
+            background-color: gray;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .pocket.top-left {
+            top: -10px;
+            left: 0;
+        }
+
+        .pocket.top-right {
+            top: -10px;
+            right: 0;
+        }
+
+        .pocket.bottom-left {
+            bottom: -10px;
+            left: 0;
+        }
+
+        .pocket.bottom-right {
+            bottom: -10px;
+            right: 0;
+        }
+        .pocket.center-top{
+            top: -10px;
+            left: 47.5%;
+        }
+        .pocket.center-bottom{
+            bottom: -10px;
+            left: 47.5%;
+        }
+        
+        .stick{
+            width: 400px;
+            height: 10px;
+            background-color: chocolate;
+            position: absolute;
+            border-radius: 0 30% 30% 0;
+            left: -54%;
+            z-index: 1;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="stick"></div>
+        <div class="ball"></div>
+        <div class="b one">1</div>
+        <div class="b two">2</div>
+        <div class="b three">3</div>
+        <div class="b four">4</div>
+        <div class="b five">5</div>
+        <div class="b six">6</div>
+        <div class="b seven">7</div>
+        <div class="b eight">8</div>
+        <div class="b nine">9</div>
+        <div class="b ten ">10</div>
+        <div class="pocket top-left"></div>
+        <div class="pocket top-right"></div>
+        <div class="pocket center-top"></div>
+        <div class="pocket center-bottom"></div>
+        <div class="pocket bottom-left"></div>
+        <div class="pocket bottom-right"></div>
+    </div>
+</body>
+</html>
